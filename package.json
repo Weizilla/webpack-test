@@ -1,0 +1,22 @@
+{
+  "name": "webpack-test",
+  "version": "1.0.0",
+  "description": "Tutorial for [https://webpack.github.io/docs/tutorials/getting-started/]()",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Weizilla/webpack-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Weizilla/webpack-test/issues"
+  },
+  "homepage": "https://github.com/Weizilla/webpack-test#readme",
+  "devDependencies": {
+    "webpack": "^1.12.13"
+  }
+}
