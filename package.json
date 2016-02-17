@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/Weizilla/webpack-test#readme",
   "devDependencies": {
+    "css-loader": "^0.23.1",
+    "style-loader": "^0.13.0",
     "webpack": "^1.12.13"
   }
 }
