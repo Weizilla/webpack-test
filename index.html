@@ -4,9 +4,14 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
-<body>
+<body ng-app="app">
 <h1>H1</h1>
 <h2>H2</h2>
+
+<div ng-controller="HelloController as ctrl">
+    Hello {{ ctrl.world() }}
+</div>
+
 
 <script src="build/bundle.js" charset="utf-8"></script>
 </body>
