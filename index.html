@@ -12,6 +12,17 @@
     Hello {{ ctrl.world() }}
 </div>
 
+<div ng-controller="CalculatorController as ctrl">
+    <form class="pure-form">
+        <fieldset>
+            <input type="number" ng-model="ctrl.a">
+            <input type="number" ng-model="ctrl.b">
+            <input type="number" ng-model="ctrl.result">
+            <button type="button" class="pure-button pure-button-primary"
+                ng-click="ctrl.calculate()">Add</button>
+        </fieldset>
+    </form>
+</div>
 
 <script src="build/bundle.js" charset="utf-8"></script>
 </body>
