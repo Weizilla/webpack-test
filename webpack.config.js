@@ -23,6 +23,8 @@ module.exports = {
             compress: {
                 warnings: false
             }
-        })
+        }),
+        // ignore locales for moment
+        new webpack.IgnorePlugin(/^\.\/locale$/, [/moment$/])
     ]
 };
